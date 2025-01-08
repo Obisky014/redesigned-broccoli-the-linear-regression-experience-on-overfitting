@@ -47,6 +47,7 @@ This project involves using linear regression to predict housing prices based on
 
 - Adjustments were made to the axes to ensure proper scaling.
 - However, the red points for the predicted prices refused to show after initially appearing earlier without the use of plt.xlim(0, 5000) and plt.ylim(0, 700000). that might suggest overfitting?, well if you can help with that let me know.
+- Edit: I found the issue, it was the second line of my visualization cell, the first argument was y_test when it should have been X_test
 
 ---
 
